@@ -1,0 +1,6 @@
+@function toRem($px) {
+    @return calc($px / 16) * 1rem;
+}
+@function toPrc($child, $parent) {
+    @return calc($child / $parent) * 100%;
+}

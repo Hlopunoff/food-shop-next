@@ -1,0 +1,19 @@
+@import '../../styles/colors';
+@import '../../styles/functions';
+.logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+    &__title {
+        text-transform: uppercase;
+        color: $main-text;
+        font-weight: 700;
+        font-style: normal;
+        font-size: toRem(18);
+        line-height: toRem(18);
+        @media(max-width: 767.988px) {
+            display: none;
+        }
+    }
+}

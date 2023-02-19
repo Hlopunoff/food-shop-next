@@ -1,0 +1,17 @@
+@import '../styles/fonts';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik';
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1228px;
+  padding: 0 10px;
+}

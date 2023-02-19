@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../public/fonts/Rubik-Regular.woff2') format('woff2'), url('../public/fonts/Rubik-Regular.woff') format('woff'), url('../public/fonts/Rubik-Regular.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Rubik';
+    src: url('../public/fonts/Rubik-Bold.woff2') format('woff2'), url('../public/fonts/Rubik-Bold.woff') format('woff'), url('../public/fonts/Rubik-Bold.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../public/fonts/Roboto-Bold.woff2') format('woff2'), url('../public/fonts/Roboto-Bold.woff') format('woff'), url('../public/fonts/Roboto-Bold.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+}
